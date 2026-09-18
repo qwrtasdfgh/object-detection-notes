@@ -1,0 +1,45 @@
+# Local Python and Conda environments
+.conda/
+conda-meta/
+*.conda
+.venv/
+venv/
+env/
+
+# Generated Zensical output and caches
+site/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+
+# Object-detection data and generated artifacts
+datasets/
+data/
+weights/
+checkpoints/
+runs/
+outputs/
+experiments/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+.condarc
+credentials/
+secrets/
+*.pem
+*.key
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

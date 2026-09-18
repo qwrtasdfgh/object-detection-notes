@@ -1,0 +1,40 @@
+[project]
+site_name = "Object Detection Notes"
+site_description = "An introductory guide to object detection, bounding boxes, detector families, and evaluation."
+site_author = "Jialin Hou"
+# Set this only after the final GitHub username or custom domain is known:
+# site_url = "https://YOUR_GITHUB_USERNAME.github.io/object-detection-notes/"
+nav = [
+  { "Introduction to Object Detection" = "index.md" },
+]
+extra_css = [
+  "stylesheets/extra.css",
+]
+
+[project.theme]
+logo = "assets/bounding-box.svg"
+favicon = "assets/bounding-box.svg"
+font = false
+features = [
+  "navigation.tabs",
+  "navigation.tracking",
+  "navigation.top",
+  "toc.follow",
+  "content.code.copy",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "teal"
+accent = "teal"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "teal"
+accent = "cyan"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
