@@ -6,6 +6,7 @@ site_author = "Jialin Hou"
 site_url = "https://qwrtasdfgh.github.io/object-detection-notes/"
 nav = [
   { "Introduction to Object Detection" = "index.md" },
+  { "Bounding Boxes" = "bounding-boxes.md" },
 ]
 extra_css = [
   "stylesheets/extra.css",
