@@ -2,8 +2,8 @@
 site_name = "Object Detection Notes"
 site_description = "An introductory guide to object detection, bounding boxes, detector families, and evaluation."
 site_author = "Jialin Hou"
-# Set this only after the final GitHub username or custom domain is known:
-# site_url = "https://YOUR_GITHUB_USERNAME.github.io/object-detection-notes/"
+# Keep the GitHub Pages URL until a custom domain is configured.
+site_url = "https://qwrtasdfgh.github.io/object-detection-notes/"
 nav = [
   { "Introduction to Object Detection" = "index.md" },
 ]
