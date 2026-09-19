@@ -1,5 +1,5 @@
 [project]
-site_name = "Object Detection Notes"
+site_name = "Object Detection"
 site_description = "An introductory guide to object detection, bounding boxes, detector families, and evaluation."
 site_author = "Jialin Hou"
 # Keep the GitHub Pages URL until a custom domain is configured.
